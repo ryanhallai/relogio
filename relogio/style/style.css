@@ -1,0 +1,55 @@
+body {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 70px;
+}
+
+.container {
+	margin-top: 20%;
+}
+
+.container,
+.preto,
+.branco {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.IMGbranco {
+	filter: invert(100%);
+}
+
+.minutos,
+.segundos {
+	margin-left: 2px;
+}
+
+.BGpreto {
+	background-color: black;
+}
+
+#BGbranco {
+	background-color: white;
+}
+
+.branco {
+	color: white;
+}
+
+.preto {
+	color: black;
+}
+
+.botao,
+.imagem__botao {
+	display: block;
+	height: 50px;
+	margin-left: 75%;
+	border: none;
+	background: none;
+}
+
+.imagem__botao {
+	margin-left: 0;
+	background-color: white;
+}
